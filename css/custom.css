@@ -2,6 +2,10 @@
     font-family: 'Raleway', sans-serif !important;
 }
 
+.gj-bg{
+    background-color: #f2ecde !important;
+}
+
 .gj-card{
     max-width: 600px;
     width:70%;
@@ -36,5 +40,5 @@ a:link {
   }
 
 
-@media (min-width:1300px) { .horizontal-scroll-wrapper { width: 1300px; } } 
+@media (min-width:1300px) { .horizontal-scroll-wrapper { width: 1200px; } } 
 
