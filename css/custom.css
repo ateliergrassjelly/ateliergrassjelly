@@ -27,7 +27,7 @@ a:link {
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .horizontal-scroll-wrapper  > div{
@@ -40,5 +40,26 @@ a:link {
   }
 
 
-@media (min-width:1300px) { .horizontal-scroll-wrapper { width: 1200px; } } 
+@media (min-width:1200px) { 
+    .horizontal-scroll-wrapper { width: 1200px; } 
+    .fab-button{
+        display:none;
+    }
+} 
+
+/************ left-slide-fade animation **************/
+.list-item {
+    display: block;
+}
+.left-slide-fade-enter-active {
+    transition: all .5s ease;
+}
+.left-slide-fade-leave-active {
+    transition: all .5s ease;
+}
+.left-slide-fade-enter, .left-slide-fade-leave-to {
+    transform: translateX(-10px);
+    opacity: 0;
+}
+/************ left-slide-fade animation **************/
 
