@@ -22,7 +22,7 @@ a:link {
 }
 
 .horizontal-scroll-wrapper {
-    height: 100vh;
+    height: 100%;
     /* width: 100%; */
     margin: auto;
     display: flex;
@@ -63,13 +63,3 @@ a:link {
 }
 /************ left-slide-fade animation **************/
 
-
-.gj-card::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .gj-card {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
